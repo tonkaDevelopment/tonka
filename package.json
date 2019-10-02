@@ -4,6 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "deploy":"ng build --prod --base-href https://tonkadevelopment.github.io/tonka/ --branch master",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
